@@ -1,0 +1,22 @@
+.hero-img {
+  background-image: url("../../assets/pexels-photo-4164418.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  font-size: 50px;
+  display: flex;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 20%;
+  transform: translate(-10%);
+  transition: 2s ease-out;
+}
